@@ -111,6 +111,20 @@ main h2 {
   margin-bottom: 0.25rem;
 }
 
+.interlines p {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.listNoMargin li {
+  margin: 0;
+}
+
+.basesWallon h2 {
+  margin-top: 2rem;
+}
+
 .abreviations main p {
   margin-bottom: 0;
 }
