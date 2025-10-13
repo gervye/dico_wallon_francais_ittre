@@ -1,0 +1,220 @@
+/* Reset léger pour une meilleure cohérence */
+body,
+h1,
+h2,
+p,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito Sans", Roboto, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 16px;
+  color: #222;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+a {
+  color: #0969da;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #044289;
+}
+
+main {
+  margin-bottom: 2rem;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+.noPMargin p {
+  margin-bottom: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  color: white;
+  background-color: #262528;
+  background-repeat: repeat-x;
+  background-image: linear-gradient(180deg, #424046, #262528);
+}
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 2rem 0.5rem 2rem;
+}
+.header-title {
+  line-height: 1.2em;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  margin: 0;
+}
+@media (max-width: 800px) {
+  .header-title {
+    font-size: 1.4rem;
+  }
+}
+
+nav {
+  padding: 1rem 1rem 0 1rem;
+}
+.nav-back {
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2em;
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 0 1rem 1rem 1rem;
+}
+.home main {
+  padding-top: 2rem;
+}
+.home main p {
+  margin: 0.5rem 0;
+}
+
+main h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.home nav {
+  margin-top: 0.5rem;
+  padding: 0;
+  margin-bottom: 1.5rem;
+}
+.home nav a {
+  display: inline-block;
+  margin-bottom: 0.25rem;
+}
+
+.abreviations main p {
+  margin-bottom: 0;
+}
+
+.dico nav .alphabet-nav {
+  margin-bottom: 1.5rem;
+}
+.dico nav .alphabet-nav a {
+  color: #888;
+  padding-right: 0.5rem;
+}
+.dico nav .alphabet-nav .current {
+  padding-right: 0.5rem;
+}
+.dico p {
+  margin-bottom: 0;
+}
+
+.blocP-NoMarginBottom {
+  margin-bottom: 1rem;
+}
+.blocP-NoMarginBottom p {
+  margin-bottom: 0;
+}
+
+.tableListe2 {
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.tableListe2 td {
+  vertical-align: top;
+  padding: 0 1rem 0 0;
+  text-align: left;
+}
+.tableListe2--firstTDNoWrap td:first-of-type {
+  white-space: nowrap;
+}
+.tableListe2 h3 {
+  margin: 1rem 0 0.5rem 0;
+}
+
+.remerciements-list {
+  margin-top: 0;
+}
+
+.textesAuteurs h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.texteAuteur {
+  display: flex;
+  gap: 0 2rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 800px) {
+  .texteAuteur {
+    flex-direction: column;
+  }
+}
+.texteAuteur-left,
+.texteAuteur-right {
+  flex: 1;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+.texteAuteur-single {
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  display: block;
+  font-size: 0.8em;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.notes {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 2rem;
+}
+
+.footnotes {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 1rem;
+  padding: 0 1rem;
+  border-top: 1px solid #ccc;
+}
+.footnotes ol {
+  padding-left: 1rem;
+}
+
+.footnotes ol p {
+  margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 15px;
+  }
+  .header-title {
+    font-size: 1.4rem;
+  }
+}
