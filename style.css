@@ -31,8 +31,15 @@ a:hover {
   color: #044289;
 }
 
-main {
-  margin-bottom: 2rem;
+section {
+  padding: 2rem 0;
+  background-color: #ffffff;
+}
+section:nth-of-type(even) {
+  background-color: #f9f9f3;
+}
+section.footnotes {
+  background-color: #ffffff;
 }
 
 p {
@@ -46,6 +53,7 @@ p {
 .container {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 1rem;
 }
 
 header {
@@ -74,9 +82,6 @@ header .container {
 nav {
   padding: 1rem 1rem 0 1rem;
 }
-.nav-back {
-  margin-bottom: 1rem;
-}
 
 h1,
 h2,
@@ -86,12 +91,6 @@ h4 {
   margin-bottom: 1rem;
 }
 
-main {
-  padding: 0 1rem 1rem 1rem;
-}
-.home main {
-  padding-top: 2rem;
-}
 .home main p {
   margin: 0.5rem 0;
 }
@@ -104,7 +103,6 @@ main h2 {
 .home nav {
   margin-top: 0.5rem;
   padding: 0;
-  margin-bottom: 1.5rem;
 }
 .home nav a {
   display: inline-block;
@@ -121,16 +119,12 @@ main h2 {
   margin: 0;
 }
 
-.basesWallon h2 {
-  margin-top: 2rem;
-}
-
 .abreviations main p {
   margin-bottom: 0;
 }
 
 .dico nav .alphabet-nav {
-  margin-bottom: 1.5rem;
+  margin-top: 2rem;
 }
 .dico nav .alphabet-nav a {
   color: #888;
