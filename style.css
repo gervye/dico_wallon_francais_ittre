@@ -32,7 +32,7 @@ a:hover {
 }
 
 section {
-  padding: 2rem 0;
+  padding: 3rem 0;
   background-color: #ffffff;
 }
 section:nth-of-type(even) {
@@ -178,7 +178,6 @@ main h2 {
 .texteAuteur {
   display: flex;
   gap: 0 2rem;
-  margin-bottom: 1rem;
 }
 @media (max-width: 800px) {
   .texteAuteur {
@@ -193,7 +192,6 @@ main h2 {
 }
 .texteAuteur-single {
   text-align: justify;
-  margin-bottom: 2rem;
 }
 
 .copyright {
