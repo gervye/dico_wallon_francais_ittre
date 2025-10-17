@@ -38,6 +38,9 @@ section {
 section:nth-of-type(even) {
   background-color: #f9f9f3;
 }
+section:first-of-type {
+  padding-top: 2rem;
+}
 section.footnotes {
   background-color: #ffffff;
 }
