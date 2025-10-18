@@ -219,9 +219,11 @@ main h2 {
 .footnotes ol {
   padding-left: 1rem;
 }
-
 .footnotes ol p {
   margin-bottom: 0;
+}
+section.footnotes {
+  padding-top: 0;
 }
 
 @media (max-width: 800px) {
