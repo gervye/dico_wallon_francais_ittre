@@ -15,7 +15,7 @@ jobs:
       - name: Prepare deployment folder
         run: |
           mkdir site_to_publish
-          cp -r * site_to_publish/
+          rsync -av --exclude 'site_to_publish' --exclude '.github' ./ site_to_publish/
           # Nettoyage éventuel de dossiers inutiles
           rm -rf site_to_publish/.git
           rm -rf site_to_publish/.github
