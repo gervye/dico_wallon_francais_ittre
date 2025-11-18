@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://gervye.github.io/dico_wallon_francais_ittre/sitemap.xml
+Sitemap: sitemap.xml
 
 # Délai recommandé entre les requêtes (en secondes)
 Crawl-delay: 1

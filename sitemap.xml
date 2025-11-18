@@ -3,7 +3,7 @@
   
   <!-- Page d'accueil -->
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/</loc>
+    <loc></loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
@@ -11,21 +11,21 @@
   
   <!-- Pages d'information -->
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/preface.html</loc>
+    <loc>preface.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/que-savoir-du-wallon.html</loc>
+    <loc>que-savoir-du-wallon.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/abreviations.html</loc>
+    <loc>abreviations.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
@@ -33,182 +33,182 @@
   
   <!-- Lettres du dictionnaire -->
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/A.html</loc>
+    <loc>A.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/B.html</loc>
+    <loc>B.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/C.html</loc>
+    <loc>C.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/D.html</loc>
+    <loc>D.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/E.html</loc>
+    <loc>E.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/F.html</loc>
+    <loc>F.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/G.html</loc>
+    <loc>G.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/H.html</loc>
+    <loc>H.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/I.html</loc>
+    <loc>I.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/J.html</loc>
+    <loc>J.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/K.html</loc>
+    <loc>K.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/L.html</loc>
+    <loc>L.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/M.html</loc>
+    <loc>M.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/N.html</loc>
+    <loc>N.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/O.html</loc>
+    <loc>O.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/P.html</loc>
+    <loc>P.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/Q.html</loc>
+    <loc>Q.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/R.html</loc>
+    <loc>R.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/S.html</loc>
+    <loc>S.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/T.html</loc>
+    <loc>T.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/U.html</loc>
+    <loc>U.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/V.html</loc>
+    <loc>V.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/W.html</loc>
+    <loc>W.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/X.html</loc>
+    <loc>X.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/Y.html</loc>
+    <loc>Y.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/Z.html</loc>
+    <loc>Z.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.9</priority>
@@ -216,28 +216,28 @@
   
   <!-- Pages supplémentaires -->
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/is-ont-scrit-in-walon.html</loc>
+    <loc>is-ont-scrit-in-walon.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/biographie.html</loc>
+    <loc>biographie.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/remerciements.html</loc>
+    <loc>remerciements.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/bibliographie.html</loc>
+    <loc>bibliographie.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
