@@ -1,0 +1,64 @@
+name: Deploy to GitHub Pages with base tag injection + IndexNow notification
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source branch
+        uses: actions/checkout@v4
+
+      - name: Prepare deployment folder
+        run: |
+          mkdir site_to_publish
+          rsync -av --exclude 'site_to_publish' --exclude '.github' ./ site_to_publish/
+          # Nettoyage éventuel de dossiers inutiles
+          rm -rf site_to_publish/.git
+          rm -rf site_to_publish/.github
+
+      - name: Inject base tag in all HTML files
+        run: |
+          REPO_NAME=$(basename ${{ github.repository }})
+          BASE_URL="https://gervye.github.io/${REPO_NAME}/"
+          for file in $(find site_to_publish -name '*.html'); do
+            # Ajout du base tag juste après <head> (écrase ou crée)
+            sed -i "/<head>/a <base href=\"$BASE_URL\">" "$file"
+          done
+
+      - name: List changed/added HTML files (only real content changes)
+        id: html_files
+        run: |
+          git fetch origin ${{ github.event.before }}
+          CHANGED_FILES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }} | grep '\.html$' | xargs)
+          echo "CHANGED_FILES=$CHANGED_FILES" >> $GITHUB_ENV
+          echo "Found HTML files: $CHANGED_FILES"
+
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site_to_publish
+
+      - name: Notify IndexNow
+        if: env.CHANGED_FILES != ''
+        env:
+          INDEXNOW_KEY: a994ef02230342a289b02da7b08fc9eb
+        run: |
+          REPO_NAME=$(basename ${{ github.repository }})
+          HOST="gervye.github.io"
+          URLS=""
+          for file in $CHANGED_FILES; do
+            URLS="${URLS}\"https://${HOST}/${REPO_NAME}/${file}\","
+          done
+          URLS="[${URLS%,}]"
+          curl -X POST "https://api.indexnow.org/indexnow" \
+            -H "Content-Type: application/json" \
+            --data-raw "{
+              \"host\": \"${HOST}\",
+              \"key\": \"${INDEXNOW_KEY}\",
+              \"urlList\": $URLS
+            }"
