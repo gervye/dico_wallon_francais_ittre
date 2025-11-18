@@ -11,7 +11,7 @@
   
   <!-- Pages d'information -->
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/préface.html</loc>
+    <loc>https://gervye.github.io/dico_wallon_francais_ittre/preface.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
@@ -25,7 +25,7 @@
   </url>
   
   <url>
-    <loc>https://gervye.github.io/dico_wallon_francais_ittre/abréviations.html</loc>
+    <loc>https://gervye.github.io/dico_wallon_francais_ittre/abreviations.html</loc>
     <lastmod>2025-11-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
