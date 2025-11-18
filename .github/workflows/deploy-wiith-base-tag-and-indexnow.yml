@@ -19,6 +19,7 @@ jobs:
           # Nettoyage éventuel de dossiers inutiles
           rm -rf site_to_publish/.git
           rm -rf site_to_publish/.github
+          rm -rf site_to_publish/.vscode
 
       - name: Inject base tag in all HTML files
         run: |
