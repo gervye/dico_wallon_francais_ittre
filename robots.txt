@@ -1,0 +1,11 @@
+# robots.txt - Dictionnaire Wallon-Français pour Ittre
+# Les robots d'indexation sont les bienvenus !
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: sitemap.xml
+
+# Délai recommandé entre les requêtes (en secondes)
+Crawl-delay: 1
